@@ -1,0 +1,15 @@
+data1 = [1 3 5 7 9];
+data2 = [2 4 6 8 10];
+
+figure('Name','g');
+subplot(2,1,1);
+bar(data1);
+title('ชุดข้อมูลที่ 1');
+xlabel('ค่า');
+ylabel('จำนวน');
+
+subplot(2,1,2);
+bar(data2, 'r'); 
+title('ชุดข้อมูลที่ 2');
+xlabel('ค่า');
+ylabel('จำนวน');
